@@ -33,7 +33,7 @@ int main()
 	int bubbleArray[12] = {22, 34, 11, 4, 7,  5, 9, 10, 3, 2, 1, 100};	
 	arrayFunc(bubbleArray, sizeof(bubbleArray) / sizeof(bubbleArray[0]));
 
-	for (int i = 0; i < sizeof(bubbleArray) / sizeof(bubbleArray[0]); i++) {
+	for (int i = 0; i < sizeof(bubbleArray) / sizeof(bubbleArray[0]); i++){
 		cout << bubbleArray[i] << " ";
 	}
 
